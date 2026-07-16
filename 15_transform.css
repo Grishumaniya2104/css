@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-origin:border-box;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top:20px;
+    background-color: darkseagreen;
+    text-align: center;
+}
+.box:hover{
+    transform:scale(2);
+    
+    
+
+}
