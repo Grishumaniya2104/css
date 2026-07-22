@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: center;
+
+
+}
+
+
+
+.box{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+}
+#box1{
+    order: 3;
+}
