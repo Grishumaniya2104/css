@@ -19,9 +19,25 @@
     margin-top:20px;
     background-color: darkseagreen;
     text-align: center;
+    transition:all 1s;
 }
 .box:hover{
-    transform:scale(2);
+   transform:scale(2);
+   transform: scaleX(2);
+   transform: scaleY(3);
+
+   transform: rotate(45deg);
+   transform: rotateX(45'angle');
+   transform: rotateY(90'angle');
+
+transform: skew(45deg);
+transform: skewX(60deg);
+transform: skewY(360deg);
+
+
+transform:translate(100px);
+transform: translateX(50px);
+transform: translateY(90px);
     
     
 
