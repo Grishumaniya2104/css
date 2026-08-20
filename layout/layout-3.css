@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:3px;
+    padding: 3px;
+
+}
+.box{
+    border: 1px solid black;
+}
+
+#box-1{
+    background-color: lightseagreen;
+    grid-row: 1/4;
+}
+
+#box-2{
+    background-color: rgb(127, 62, 62);
+    grid-column: 2/4;
+}
+#box-3{
+    background-color: lightsalmon;
+}
+#box-4{
+    background-color: lightskyblue;
+}
+#box-5{
+    background-color: lightyellow;
+}
+#box-6{
+    background-color: darksalmon;
+    grid-column: 4;
+    grid-row: 2/4;
+}
+#box-7{
+    background-color: lightcoral;
+}
+#box-8{
+    background-color: bisque;
+}
